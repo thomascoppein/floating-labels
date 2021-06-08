@@ -19,5 +19,7 @@ import FloatingLabels from '@thomascoppein/floating-labels';
 ## Create new Floating Labels instance:
 
 ```javascript
-const floatingLabel = new FloatingLabel();
+const floatingLabel = new FloatingLabel({
+  selector: '.js-floating-input'
+});
 ```
